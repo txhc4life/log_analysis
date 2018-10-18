@@ -54,7 +54,7 @@ Import the database into postgresql
 Install psycopg2  
 `pip3 install --user psycopg2-binary`
 
-Change directory to shared synced folder
+Change directory to shared synced folder  
 `cd /vagrant`
 
 Execute   
