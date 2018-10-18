@@ -28,7 +28,7 @@ Postresql - Included in VM
 https://www.postgresql.org/download/
 
 ### **Instructions**
-You can use the provided VM to test log_analysis. First we will clone this repository to our local workstation. Then we will use vagrant to provision a new VM with Postgresql and Python3 are preinstalled. Once the VM is running we can proceed to download, extract, and import the news database. We then use pip3 to install psycopg2. log_analysis is now ready for testing.
+You can use the provided VM to test log_analysis. First you will need to clone this repository to your local workstation. Then use Vagrant to provision a new VM with Postgresql and Python3. Once the VM is running, you can proceed to download, extract, and import the news database. Then pip3 to install psycopg2. log_analysis is now ready for testing.
 
 Clone repository from github  
 `git clone https://github.com/txhc4life/log_analysis.git`
