@@ -4,7 +4,11 @@ import psycopg2
 
 print("Starting report.")
 
-conn = psycopg2.connect("dbname=news")
+try:
+    conn = psycopg2.connect("dbname=news")
+except e:
+    print("Could not connect to the database.")
+
 cur = conn.cursor()
 cur.execute("""
             SELECT title, COUNT(title) AS views
